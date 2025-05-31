@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/monster/download/project/AgriSage/install/bottle_detection_ros2/lib/python3.10/site-packages",
+        "/home/monster/download/project/AgriSage/install/bottle_detection_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/monster/download/project/AgriSage/install/bottle_detection_ros2/lib/python3.10/site-packages",
+        "/home/monster/download/project/AgriSage/install/bottle_detection_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
