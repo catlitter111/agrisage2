@@ -2,10 +2,18 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>stereo_camera_publisher</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="youremail@example.com">monster</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>ROS2双目相机图像采集和处理节点</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>numpy</depend>
+  <depend>opencv-python</depend>
+  <depend>pandas</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
